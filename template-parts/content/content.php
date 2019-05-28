@@ -40,7 +40,7 @@
 					</header>
 
 					<div class="post-excerpt">
-						<?php the_excerpt(); ?>
+						<?php the_content(); ?>
 					</div>
 
 					<div class="post-sharing">

@@ -18,24 +18,6 @@
 
 
 /*
- * Make the excerpt the first paragraph.
- * From https://www.bybe.net/wordpress-the_excerpt-show-first-paragraph.
- */
-
-	function awesome_excerpt($text, $raw_excerpt) {
-		if( ! $raw_excerpt ) {
-			$content = apply_filters( 'the_content', get_the_content() );
-			$text = substr( $content, 0, strpos( $content, '</p>' ) + 4 );
-		}
-		$buttonmore = '<p><a href="'. get_permalink($post->ID) . '"> Read more...</a></p>';
-		return $text . " " . $buttonmore;
-	}
-
-	add_filter( 'wp_trim_excerpt', 'awesome_excerpt', 10, 2 );
-
-
-
-/*
  * Enqueue all of the styles and scripts
  */
 

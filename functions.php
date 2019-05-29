@@ -32,7 +32,7 @@
 		/* Font Awesome CSS */
 		wp_enqueue_style( 'font_awesome', 'https://use.fontawesome.com/releases/v5.8.2/css/all.css' );
 		/* Bigfoot default CSS */
-		wp_enqueue_style( 'bigfootcss', get_template_directory_uri() . '/bigfoot/bigfoot-number.css');
+		wp_enqueue_style( 'bigfootcss', get_template_directory_uri() . '/bigfoot/bigfoot-default.css');
 		/* My CSS */
 		wp_enqueue_style( 'style', get_stylesheet_uri() );
 

@@ -181,6 +181,12 @@ img.logo {
 /*
  * Styling for the older/newer post links
  */
+
+.post-navigation {
+	margin: 0 0 3rem 0;
+	text-align: center;
+}
+
 .post-navigation a,
 .post-navigation a:link,
 .post-navigation a:visited {

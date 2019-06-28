@@ -222,6 +222,12 @@ img.logo {
 	padding: 0 15px;
 }
 
+.posts-container-single {
+	max-width: 990px;
+	margin: 3rem auto 0;
+	padding: 0 15px;
+}
+
 .post-cards {
 	background: #fff;
 	padding: 1rem;

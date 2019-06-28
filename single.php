@@ -9,9 +9,9 @@
 <?php get_header(); ?>
 
 		<main>
-			<?php get_template_part( 'template-parts/about-block' ) ?>
+			
 
-			<section class="posts-container">
+			<section class="posts-container-single">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); get_template_part( 'template-parts/content/content-single', get_post_format() ); endwhile; endif; ?>
 			</section>
 

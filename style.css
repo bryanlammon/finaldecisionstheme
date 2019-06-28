@@ -236,7 +236,7 @@ img.logo {
 
 
 /*
- * Styling the posts
+ * Styling the posts & other containers
  */
 
 .posts-container {
@@ -245,13 +245,49 @@ img.logo {
 	padding: 0 15px;
 }
 
-.posts-container-single {
+.posts-container-single,
+.recent-related-container {
 	max-width: 990px;
-	margin: 3rem auto 0;
+	margin: 3rem auto 3rem;
 	padding: 0 15px;
 }
 
-.post-cards {
+.recent-related-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.recent-related-container h4 {
+	border-bottom: 2px solid #e3e4e6;
+}
+
+.recent-related-container dl {
+
+}
+
+.recent-related-container dt {
+	margin: 1rem 0 0.25rem 0;
+}
+
+.recent-related-container dd {
+
+}
+
+
+.recent-related-container a,
+.recent-related-container a:link,
+.recent-related-container a:visited {
+	color: #214261;
+	font-weight: bold;
+}
+
+.recent-related-container a:hover {
+	color: #5d7995;
+}
+
+.post-cards,
+.recent-cards,
+.related-cards {
 	background: #fff;
 	padding: 1rem;
 	margin: 0 0 3rem 0;
@@ -259,7 +295,15 @@ img.logo {
 	transition: 0.3s;
 }
 
-.post-cards:hover {
+.recent-cards,
+.related-cards {
+	flex-grow: 1;
+	align-items: stretch;
+}
+
+.post-cards:hover,
+.recent-cards:hover,
+.related-cards:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -508,6 +552,19 @@ footer {
 
 	#desktop-tablet-footer {
 		display: block;
+	}
+
+	/* Recent & related posts boxes */
+	.recent-related-container {
+	flex-direction: row;
+	}
+	.recent-cards {
+		flex-basis: 50%;
+		margin-right: 15px;
+	}
+	.related-cards {
+		flex-basis: 50%;
+		margin-left: 15px;
 	}
 }
 

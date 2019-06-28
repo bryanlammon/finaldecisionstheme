@@ -179,6 +179,29 @@ img.logo {
 
 
 /*
+ * Styling for the older/newer post links
+ */
+
+.post-navigation {
+	margin: 0 0 3rem 0;
+	text-align: center;
+}
+
+.post-navigation a,
+.post-navigation a:link,
+.post-navigation a:visited {
+	color: #214261;
+	border-bottom: 2px solid #214261;
+}
+
+.post-navigation a:hover {
+	color: #5d7995;
+	border-bottom: 2px solid #5d7995;
+}
+
+
+
+/*
  * Styling for the about block (also the header for search results)
  */
 

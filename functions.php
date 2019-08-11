@@ -47,7 +47,7 @@ add_action( 'after_setup_theme', 'theme_slug_setup' );
 		wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', true);
 	}
 
-// Enqueu the styles and scripts
+// Enqueue the styles and scripts
 add_action( 'wp_enqueue_scripts', 'my_queue' );
 
 // Add Bigfoot without a plugin
@@ -58,5 +58,14 @@ function add_head() { ?>
 	</script>
 <?php }
 add_action( 'wp_head', 'add_head' );
+
+// Add classes to next-post & previous-post links
+// From https://css-tricks.com/snippets/wordpress/add-class-to-links-generated-by-next_posts_link-and-previous_posts_link
+add_filter('next_posts_link_attributes', 'posts_link_attributes');
+add_filter('previous_posts_link_attributes', 'posts_link_attributes');
+
+function posts_link_attributes() {
+	return 'class="link-button link-button--border"';
+}
 
 ?>

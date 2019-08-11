@@ -11,9 +11,7 @@ get_header();
 
 		<main>
 
-			<?php
-			 get_template_part( 'template-parts/random-background' );
-			?>
+			<?php get_template_part( 'template-parts/random-background' ); ?>
 
 			<?php
 			if ( have_posts() ) :

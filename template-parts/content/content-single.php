@@ -1,3 +1,5 @@
+<!-- OLD -->
+
 <?php
 /*
  * Template for single-post content: posts with excerpts.

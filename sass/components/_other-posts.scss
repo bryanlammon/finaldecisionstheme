@@ -1,0 +1,30 @@
+//
+// Other posts
+//
+
+.other-posts-container {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.other-posts {
+	width: 100%;
+	padding: 0 15px;
+	margin-bottom: 2rem;
+
+	@include atleast-md {
+		width: 50%;
+		max-width: 384px;
+	}
+}
+
+.other-posts__heading {
+	margin-bottom: 1rem;
+	text-align: center;
+	font-family: Raleway, sans-serif;
+	color: $primary-color;
+}
+
+.other-posts a {
+	font-weight: 700;
+}

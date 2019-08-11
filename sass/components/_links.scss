@@ -1,0 +1,78 @@
+//
+// Links that look like buttons
+//
+
+// Standard button, white with blue text
+a.link-button,
+a.link-button:visited {
+	min-width: 240px;
+	min-height: 60px;
+	margin: 15px;
+	padding: 18px 0;
+	font-family: Raleway, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	background-color: $light-shade;
+	color: $primary-color;
+}
+
+a.link-button:hover,
+a.link-button:focus {
+	background-color: $primary-gray--lighter-4;
+}
+
+a.a.link-button:active {
+	background-color: $primary-gray--lighter-2;
+}
+
+// Light accent button
+a.link-button--light-accent,
+a.link-button--light-accent:visited, {
+	background-color: $light-accent;
+	color: $primary-color;
+}
+
+a.link-button--light-accent:hover,
+a.link-button--light-accent:focus {
+	background-color: $light-accent--lighter;
+}
+
+a.link-button--light-accent:active {
+	background-color: $light-accent--darker;
+}
+
+
+// Dark accent button
+a.link-button--dark-accent,
+a.link-button--dark-accent:visited, {
+	background-color: $dark-accent;
+	color: $light-shade;
+}
+
+a.link-button--dark-accent:hover,
+a.link-button--dark-accent:focus {
+	background-color: $dark-accent--lighter;
+}
+
+a.link-button--dark-accent:active {
+	background-color: $dark-accent--darker;
+}
+
+// Button with a blue border
+a.link-button--border {
+	border: solid 2px $primary-color;
+}
+
+a.link-button--border:hover,
+a.link-button--border:focus {
+	background-color: $primary-color;
+	color: $light-shade;
+	border: solid 2px $primary-color;
+}
+
+a.link-button--border:active {
+	background-color: $primary-color--darker;
+	border: solid 2px $primary-color--darker;
+}

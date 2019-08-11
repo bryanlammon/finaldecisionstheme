@@ -1,0 +1,42 @@
+//
+// General header styling
+//
+
+.header-row {
+	position: fixed; // Sticks to top of window
+	top: 0;
+	left: 0;
+	z-index: 999; // On top of everything
+	width: 100%;
+	margin-bottom: 0;
+	background: $light-shade;
+	border-bottom: 2px solid $primary-color;
+}
+
+.header-container {
+	justify-content: space-between;
+	height: 72px;
+	@include above-md {
+		height: 50px;
+	}
+}
+
+.header__logo {
+	height: 72px;
+	width: 90px;
+	@include above-md {
+		height: 50px;
+		width: 70px;
+	}
+}
+
+.header__logo img {
+	height: 72px;
+	width: 90px;
+	padding: 7px 15px 5px 15px;
+	@include above-md {
+		height: 50px;
+		width: 70px;
+		padding: 6px 15px 4px 15px;
+	}
+}

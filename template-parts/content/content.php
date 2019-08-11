@@ -1,3 +1,5 @@
+<!-- OLD -->
+
 <?php
 /*
  * Template for main-page content: posts with excerpts.

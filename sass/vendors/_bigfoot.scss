@@ -1,0 +1,36 @@
+//
+// For overriding Bigfoot defaults
+//
+
+.bigfoot-footnote__button {
+	background-color: $primary-color;
+}
+
+.bigfoot-footnote__button:after {
+	color: $light-shade;
+}
+
+.bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus {
+	background-color: $primary-color--lighter;
+}
+
+.bigfoot-footnote__button:active {
+	background-color: $primary-color--darker;
+}
+.bigfoot-footnote__button.is-active {
+	background-color: $primary-color;
+}
+
+.bigfoot-footnote {
+	background: $light-shade;
+	border-radius: 5px;
+	border: 2px solid $primary-color;
+}
+
+.bigfoot-footnote__wrapper {
+	background-color: $light-shade;
+}
+
+.bigfoot-footnote__content {
+	line-height: 1.5rem;
+}

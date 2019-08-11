@@ -1,0 +1,84 @@
+//
+// Color variables
+// Must come after functions file to use tint and shade functions
+//
+$fd-blue: #00305c; // #00305c
+$fd-light-blue: #45a9e8; // #45a9e8
+$fd-dark-gray: #1c121d; // #1c121d
+$fd-white: #f5f7f4; // #f5f7f4
+$fd-pink: #d792ba; // #d792ba
+
+$pure-gray: #7f7f7f;
+
+$primary-color: $fd-blue;
+$light-accent: $fd-light-blue;
+$dark-accent: $fd-pink;
+$light-shade: $fd-white;
+$dark-shade: $fd-dark-gray;
+
+
+
+
+// Palettes
+$primary-color--lighter: tint($primary-color, 20%);
+$primary-color--lightest: tint($primary-color, 50%);
+$primary-color--darker: shade($primary-color, 20%);
+$primary-color--darkest: shade($primary-color, 50%);
+
+$light-accent--lighter: tint($light-accent, 20%);
+$light-accent--lightest: tint($light-accent, 50%);
+$light-accent--darker: shade($light-accent, 20%);
+$light-accent--darkest: shade($light-accent, 50%);
+
+$dark-accent--lighter: tint($dark-accent, 20%);
+$dark-accent--lightest: tint($dark-accent, 50%);
+$dark-accent--darker: shade($dark-accent, 20%);
+$dark-accent--darkest: shade($dark-accent, 50%);
+
+$light-shade--darker-1: shade($light-shade, 5%);
+$light-shade--darker-2: shade($light-shade, 10%);
+$light-shade--darker-3: shade($light-shade, 15%);
+$light-shade--darker-4: shade($light-shade, 20%);
+
+$dark-shade--lighter-1: tint($dark-shade, 5%);
+$dark-shade--lighter-2: tint($dark-shade, 10%);
+$dark-shade--lighter-3: tint($dark-shade, 15%);
+$dark-shade--lighter-4: tint($dark-shade, 20%);
+
+//
+// Pure grays
+//
+
+// Main gray
+$pure-gray: #7f7f7f;
+
+// 22% increments
+$pure-gray--lighter-1: tint($pure-gray, 22%);
+$pure-gray--lighter-2: tint($pure-gray, 44%);
+$pure-gray--lighter-3: tint($pure-gray, 66%);
+$pure-gray--lighter-4: tint($pure-gray, 88%);
+
+$pure-gray--darker-1: shade($pure-gray, 22%);
+$pure-gray--darker-2: shade($pure-gray, 44%);
+$pure-gray--darker-3: shade($pure-gray, 66%);
+$pure-gray--darker-4: shade($pure-gray, 88%);
+
+
+// 
+// Warmed/cooled gray
+// Gray mixed with primary color overlay at 10% opacity
+//
+
+// Main primary gray
+$primary-gray: #73777C;
+
+// 22% increments
+$primary-gray--lighter-1: tint($primary-gray, 22%);
+$primary-gray--lighter-2: tint($primary-gray, 44%);
+$primary-gray--lighter-3: tint($primary-gray, 66%);
+$primary-gray--lighter-4: tint($primary-gray, 88%);
+
+$primary-gray--darker-1: shade($primary-gray, 22%);
+$primary-gray--darker-2: shade($primary-gray, 44%);
+$primary-gray--darker-3: shade($primary-gray, 66%);
+$primary-gray--darker-4: shade($primary-gray, 88%);

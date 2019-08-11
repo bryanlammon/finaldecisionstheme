@@ -11,10 +11,11 @@ get_header();
 
 		<main>
 
-			<div class='row row--bottom-margin background-image random-background-image'>
-			</div>
+			<?php
+			 get_template_part( 'template-parts/random-background' );
+			?>
 
-			<?
+			<?php
 			if ( have_posts() ) :
 				while ( have_posts() ) :
 					the_post();

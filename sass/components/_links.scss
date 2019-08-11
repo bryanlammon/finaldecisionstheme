@@ -5,12 +5,13 @@
 // Standard button, white with blue text
 a.link-button,
 a.link-button:visited {
-	min-width: 240px;
-	min-height: 60px;
+	width: 240px;
+	height: 60px;
 	margin: 15px;
 	padding: 18px 0;
 	font-family: Raleway, sans-serif;
 	font-size: 24px;
+	line-height: 1;
 	text-align: center;
 	border-radius: 5px;
 	border: none;
@@ -75,4 +76,10 @@ a.link-button--border:focus {
 a.link-button--border:active {
 	background-color: $primary-color--darker;
 	border: solid 2px $primary-color--darker;
+}
+
+// The continue-reading button
+.link-button--centered {
+	display: block;
+	margin: 0 auto !important;
 }

@@ -68,4 +68,11 @@ function posts_link_attributes() {
 	return 'class="link-button link-button--border"';
 }
 
+// Change the "Read more" text and style
+// From https://codex.wordpress.org/Customizing_the_Read_More
+function modify_read_more_link() {
+		return '<a class="more-link link-button link-button--border link-button--centered" href="' . get_permalink() . '">Continue Reading</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+
 ?>

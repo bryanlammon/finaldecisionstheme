@@ -18,7 +18,7 @@ get_header();
 			if ( have_posts() ) :
 				while ( have_posts() ) :
 					the_post();
-					get_template_part( 'template-parts/content/content--excerpt', get_post_format() );
+					get_template_part( 'template-parts/content/content-excerpts', get_post_format() );
 				endwhile;
 			endif;
 			?>
@@ -26,7 +26,7 @@ get_header();
 			<div class='row row--bottom-margin'>
 				<hr>
 				<div class='container container--wrap container--justify-center'>
-					<?php posts_nav_link('','Newer Posts','Older Posts'); ?>
+					<?php posts_nav_link(' ','Newer Posts','Older Posts'); ?>
 				</div>
 			</div>
 

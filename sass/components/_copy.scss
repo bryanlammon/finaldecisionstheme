@@ -111,7 +111,11 @@
 	}
 }
 
-
+// Excerpt title & subtitle styles
+// Needed because they're link
+.title--dark-shade {
+	color: $dark-shade;
+}
 
 
 

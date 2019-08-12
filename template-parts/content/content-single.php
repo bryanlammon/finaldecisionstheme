@@ -16,21 +16,39 @@
 						</div>
 						<h1><?php the_title(); ?></h2>
 					</div>
-					<div class='copy-container__body'>
-						<hr>
-						<p>
-							<?php if(function_exists( 'the_subtitle')) the_subtitle(); ?>
-						</p>
-						<div class='container post-info-container'>
-							<p class='post-info-container__date'>
-								<?php the_time( get_option( 'date_format' ) ); ?>
+					<div class='container copy-container copy-container--single-post'>
+
+						<div class='copy-container__centering-div'></div>
+
+						<div class='copy-container__body'>
+							<hr>
+							<p>
+								<?php if(function_exists( 'the_subtitle')) the_subtitle(); ?>
 							</p>
-							<p class='post-info-container__author'>
-								By <?php the_author(); ?>
-							</p>
+							<div class='container post-info-container'>
+								<p class='post-info-container__date'>
+									<?php the_time( get_option( 'date_format' ) ); ?>
+								</p>
+								<p class='post-info-container__author'>
+									By <?php the_author(); ?>
+								</p>
+							</div>
+							<hr>
+							<?php the_content(); ?>
 						</div>
-						<hr>
-						<?php the_content(); ?>
+
+						<div class='container share-container'>
+							<a href="https://twitter.com/intent/tweet?url=<?php echo get_permalink() ?>" class='share-container__link' title="Share on Twitter">
+								<span class='fab fa-twitter'></span>
+							</a>
+							<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink() ?>"  class='share-container__link'title="Share on Facebook">
+								<span class='fab fa-facebook-f'></span>
+							</a>
+							<a href="mailto:?subject=Final Decisions: <?php the_title(); ?>&body=<?php echo get_permalink() ?>"  class='share-container__link'title="Share via Email">
+								<span class='far fa-envelope'></span>
+							</a>
+						</div>
+
 					</div>
 				</div>
 			</div>

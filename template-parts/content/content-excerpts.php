@@ -10,7 +10,6 @@
 
 			<div class='row row--bottom-margin'>
 				<div class='container copy-container'>
-
 					<div class='container title-container'>
 						<div class='post__category'>
 							<?php the_category( ', '); ?>
@@ -19,7 +18,6 @@
 							<h2 class='title title--dark-shade'><?php the_title(); ?></h2>
 						</a>
 					</div>
-
 					<div class='copy-container__body'>
 						<hr>
 						<a href="<?php echo get_permalink() ?>">
@@ -36,6 +34,5 @@
 						<hr>
 						<?php the_content(); ?>
 					</div>
-
 				</div>
 			</div>

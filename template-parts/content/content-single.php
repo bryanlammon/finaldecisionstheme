@@ -1,47 +1,36 @@
-<!-- OLD -->
-
 <?php
-/*
- * Template for single-post content: posts with excerpts.
- */
+
+//
+// Final Decisions rev 3
+// Template for single posts
+// Last update: Rev 3a1 on August 11, 2019
+//
+
 ?>
 
-				<article class="post-cards">
-					<header class="content-header">
-
-						<!-- post category -->
-						<div class="post-category">
+			<div class='row row--bottom-margin'>
+				<div class='container copy-container'>
+					<div class='container title-container'>
+						<div class='post__category'>
 							<?php the_category( ', '); ?>
 						</div>
-
-						<!-- post title -->
-						<div class="post-title">
-							<h1><?php the_title(); ?></h1>
-						</div>
-
-						<hr class="wide-line">
-
-						<!-- post subtitle -->
-						<div class="post-subtitle">
-							<p><?php if(function_exists( 'the_subtitle')) the_subtitle(); ?></p>
-						</div>
-
-						<div class="container">
-							<!-- post date -->
-							<div class="post-date">
+						<h1><?php the_title(); ?></h2>
+					</div>
+					<div class='copy-container__body'>
+						<hr>
+						<p>
+							<?php if(function_exists( 'the_subtitle')) the_subtitle(); ?>
+						</p>
+						<div class='container post-info-container'>
+							<p class='post-info-container__date'>
 								<?php the_time( get_option( 'date_format' ) ); ?>
-							</div>
-
-							<!-- post author -->
-							<div class="post-author">
+							</p>
+							<p class='post-info-container__author'>
 								By <?php the_author(); ?>
-							</div>
+							</p>
 						</div>
-
-						<hr class="wide-line">
-					</header>
-
-					<div class="post-content">
+						<hr>
 						<?php the_content(); ?>
 					</div>
-				</article>
+				</div>
+			</div>

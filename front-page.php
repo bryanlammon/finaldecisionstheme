@@ -116,12 +116,18 @@ get_header();
 
 			<div class='row row--bottom-margin'>
 				<div class='container container--wrap fp-about__container'>
-					<h2 class='container__heading'>about</h2>
+					<h2 class='container__heading'><a class='light' href='/about'>about</a></h2>
 					<div class='about'>
-						<p>Truffaut actually hoodie selvage, tattooed before they sold out freegan lo-fi fashion axe ethical adaptogen butcher chillwave tumblr green juice. Etsy beard brooklyn umami cronut subway tile.</p>
+						<p>Final Decisions is the go-to source on federal appellate jurisdiction and procedure. It covers recent decisions, cert petitions, scholarship, rule changes, and more—including a weekly rundown of notable decisions and developments.</p>
 					</div>
 					<div class='about'>
-						<p>Cray actually yr jean shorts leggings. Ugh heirloom artisan pork belly, vinyl ethical af fanny pack vegan chicharrones yr.</p>
+						<img class='author-photo' src='<?php bloginfo( 'template_url' ); ?>/images/lammon-800.jpg'>
+					</div>
+					<div class='about'>
+						<p>I'm a law professor at the University of Toledo College of Law. I research federal appellate jurisdiction and procedure, specifically addressing if and when parties can appeal.</p>
+					</div>
+					<div class='fp-about__buttons'>
+						<a href='/about' class='link-button link-button--light-accent'>Read More</a>
 					</div>
 				</div>
 			</div>

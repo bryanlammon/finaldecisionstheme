@@ -66,6 +66,13 @@ p {
 	}
 }
 
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+	border-bottom: none !important;
+}
+
 
 // Default link styling
 a,
@@ -80,6 +87,10 @@ a:focus {
 
 a:active {
 	color: $primary-color--darker;
+}
+
+a.light {
+	color: $light-shade;
 }
 
 // Other elements
@@ -102,7 +113,13 @@ dt {
 }
 
 ul {
-
+	font-size: 1.25rem;
+	line-height: 1.25;
+	margin-bottom: 1.5625rem;
+	@include atleast-md {
+		line-height: 1.375;
+		margin-bottom: 1.71875rem;
+	}
 }
 
 li {

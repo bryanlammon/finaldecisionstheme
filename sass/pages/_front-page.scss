@@ -195,12 +195,12 @@
  */
 .fp-about__container {
 	padding: 15px 0;
-	max-width: 768px;
+	max-width: 960px;
 	background: $primary-color;
 	color: $light-shade;
-	justify-content: space-between;
 	@include above-md {
 		border-radius: 5px;
+		justify-content: space-between;
 	}
 }
 
@@ -210,6 +210,24 @@
 	@include atleast-md {
 		width: 33%;
 	}
+}
+
+.author-photo {
+	display: block;
+	height: 290px;
+	width: 290px;
+	margin-left: auto;
+	margin-right: auto;
+	@include atleast-md {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.fp-about__buttons {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 

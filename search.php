@@ -14,7 +14,7 @@ get_header();
 			<?php get_template_part( 'template-parts/random-background' ); ?>
 
 			<div class='row row--bottom margin'>
-				<div class='container title-container title-container--narrow'>
+				<div class='container title-container'>
 					<h1 class='title'><?php echo $wp_query->found_posts; ?> <?php _e( 'Search Results Found For', 'locale' ); ?>: &ldquo;<?php the_search_query(); ?>&rdquo;</h1>
 				</div>
 			</div>

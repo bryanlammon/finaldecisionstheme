@@ -23,11 +23,11 @@
 	display: block;
 	padding: 240px 15px 0 15px;
 
-	@include md {
+	@include atleast-md {
 		padding: 200px 15px 0 15px;
 	}
 
-	@include lg {
+	@include atleast-lg {
 		padding: 160px 15px 0 15px;
 	}
 }
@@ -36,20 +36,20 @@
 	font-size: 20px;
 	text-align: center;
 
-	@include sm {
+	@include atleast-sm {
 		margin-bottom: 48px;
 		font-size: 28px;
 	}
 
-	@include md {
+	@include atleast-md {
 		font-size: 48px;
 	}
 
-	@include lg {
+	@include atleast-lg {
 		font-size: 72px;
 	}
 
-	@include xl {
+	@include atleast-xl {
 		font-size: 88px;
 	}
 }
@@ -57,19 +57,19 @@
 .project-title__container h2 {
 	font-size: 20px;
 
-	@include sm {
+	@include atleast-sm {
 		font-size: 20px;
 	}
 
-	@include md {
+	@include atleast-md {
 		font-size: 36px;
 	}
 
-	@include lg {
+	@include atleast-lg {
 		font-size: 48px;
 	}
 
-	@include xl {
+	@include atleast-xl {
 		font-size: 56px;
 	}
 }

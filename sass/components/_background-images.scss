@@ -8,11 +8,11 @@
 	background-position: center;
 	background-size: cover;
 	background-color: $primary-color;
-	@include sm {
+	@include atleast-xs {
 		height: 280px;
 		padding-bottom: 3rem;
 	}
-	@include md {
+	@include atleast-sm {
 		height: 320px;
 		padding-bottom: 4rem;
 	}

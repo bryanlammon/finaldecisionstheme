@@ -23,7 +23,7 @@
 	padding: 9px;
 	font-size: 42px;
 	color: $primary-color;
-	@include lg {
+	@include above-lg {
 		padding: 3px;
 		font-size: 36px;
 	}

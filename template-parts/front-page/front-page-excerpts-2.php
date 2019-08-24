@@ -3,7 +3,7 @@
 //
 // Final Decisions rev 3
 // Template for the second block of front page excerpts
-// Last update: Rev 3a1 on August 11, 2019
+// Last update: Rev 3a1 on August 24, 2019
 //
 
 ?>

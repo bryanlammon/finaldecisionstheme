@@ -3,7 +3,7 @@
 //
 // Final Decisions rev 3
 // Footer
-// Last update: Rev 3a1 on August 11, 2019
+// Last update: Rev 3a1 on August 24, 2019
 //
 
 ?>
@@ -20,7 +20,7 @@
 
 					<div class='footer footer__copyright'>
 						<a href="/copyright">Copyright Information</a>
-						<a href="/privacy">Priavacy Policy</a>
+						<a href="/privacy">Privacy Policy</a>
 					</div>
 
 					<div class='footer footer__contact'>

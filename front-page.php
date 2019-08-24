@@ -19,7 +19,7 @@ get_header();
 				</div>
 			</div>
 
-			<!-- Inactive
+			<!-- Currently inactive
 			<div class='row row--bottom-margin '>
 				<div class='container ad__container'>
 					<h2 class='container__heading container__heading--advertisement'>Sponsor</h2>
@@ -34,6 +34,7 @@ get_header();
 				</div>
 			</div>
 
+			<!-- Currently inactive
 			<div class='row row--bottom-margin'>
 				<div class='container fp-email-signup__container'>
 					<h2 class='container__heading'>Email Signup</h2>
@@ -41,14 +42,15 @@ get_header();
 					<form>Email</form>
 					<button>Submit</button>
 				</div>
-			</div>
+			</div> -->
 
+			<!-- Currently inactive
 			<div class='row row--bottom-margin '>
 				<div class='container ad__container'>
 					<h2 class='container__heading container__heading--advertisement'>Advertisement</h2>
 					<div class='advertisement--horizontal'>front page ad</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class='row row--bottom-margin'>
 				<div class='container container--wrap'>
@@ -56,7 +58,7 @@ get_header();
 				</div>
 			</div>
 
-
+			<!-- Currently inactive
 			<div class='row row--bottom-margin fp-projects__row'>
 				<div class='container container--wrap fp-projects__container'>
 					<div class='fp-projects__project'>
@@ -76,14 +78,15 @@ get_header();
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
+			<!-- Currently inactive
 			<div class='row row--bottom-margin '>
 				<div class='container ad__container'>
 					<h2 class='container__heading container__heading--advertisement'>advertisement</h2>
 					<div class='advertisement--horizontal'>front page ad</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class='row row--bottom-margin'>
 				<div class='container container--wrap'>
@@ -97,12 +100,13 @@ get_header();
 				</div>
 			</div>
 
+			<!-- Currently inactive
 			<div class='row row--bottom-margin '>
 				<div class='container ad__container'>
 					<h2 class='container__heading container__heading--advertisement'>Advertisement</h2>
 					<div class='advertisement--horizontal'>front page ad</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div id='fp-categories' class='row row--bottom-margin'>
 				<div class='container container--wrap fp-categories__container'>
@@ -125,7 +129,7 @@ get_header();
 						<img class='author-photo' src='<?php bloginfo( 'template_url' ); ?>/images/lammon-800.jpg'>
 					</div>
 					<div class='about'>
-						<p>I'm a law professor at the University of Toledo College of Law. I research federal appellate jurisdiction and procedure, specifically addressing if and when parties can appeal.</p>
+						<p>I'm a law professor at the University of Toledo College of Law. I research federal appellate jurisdiction and procedure, primarily if and when litigants can appeal.</p>
 					</div>
 					<div class='fp-about__buttons'>
 						<a href='/about' class='link-button link-button--light-accent'>Read More</a>

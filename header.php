@@ -39,8 +39,8 @@
 						<a href=<?php echo get_site_url(null, '#fp-categories', ''); ?> class='large-navigation-menu__wide-link'>Categories</a>
 						<a href='/blog' class='large-navigation-menu__wide-link'>Archive</a>
 						<a href='/scholarship' class='large-navigation-menu__wide-link'>Scholarship</a>
-						<a href='/projects' class='large-navigation-menu__wide-link'>Projects</a>
-						<a href='/contact' class='large-navigation-menu__wide-link'>Contact</a>
+						<!-- <a href='/projects' class='large-navigation-menu__wide-link'>Projects</a> -->
+						<!-- <a href='/contact' class='large-navigation-menu__wide-link'>Contact</a> -->
 						<a href='https://twitter.com/BryanLammon' class='large-navigation-menu__little-link'>
 							<span class='fab fa-twitter'></span>
 						</a>
@@ -87,8 +87,8 @@
 							<a href=<?php echo get_site_url(null, '#fp-categories', ''); ?>>Categories</a>
 							<a href='/blog'>Archive</a>
 							<a href='/scholarship'>Scholarship</a>
-							<a href='/projects'>Projects</a>
-							<a href='/contact'>Contact</a>
+							<!-- <a href='/projects'>Projects</a> -->
+							<!-- <a href='/contact'>Contact</a> -->
 							<?php get_search_form(); ?>
 						</div>
 

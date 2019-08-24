@@ -25,11 +25,11 @@
 					</div>
 
 					<div class='footer footer__contact'>
-							<a href='#'>Faculty Webpage</a>
-							<a href='#'>Twitter</a>
-							<a href='#'>SSRN</a>
-							<a href='#'>GitHub</a>
-							<a href='#'>RSS</a>
+							<a href='https://www.utoledo.edu/law/faculty/fulltime/lammon.html'>Faculty Webpage</a>
+							<a href='https://twitter.com/BryanLammon'>Twitter</a>
+							<a href='https://www.ssrn.com/author=883907'>SSRN</a>
+							<a href='https://github.com/bryanlammon'>GitHub</a>
+							<a href='/feed'>RSS</a>
 					</div>
 
 				</div>

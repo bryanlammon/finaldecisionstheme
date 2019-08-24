@@ -19,23 +19,24 @@ get_header();
 				</div>
 			</div>
 
+			<!-- Inactive
 			<div class='row row--bottom-margin '>
 				<div class='container ad__container'>
-					<h2 class='container__heading container__heading--advertisement'>sponsor</h2>
+					<h2 class='container__heading container__heading--advertisement'>Sponsor</h2>
 					<div class='advertisement--horizontal'>front page ad</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class='row row--bottom-margin'>
 				<div class='container container--wrap'>
-					<h2 class='container__heading'>latest posts</h2>
+					<h2 class='container__heading'>Latest Posts</h2>
 					<?php get_template_part( 'template-parts/front-page/front-page-excerpts-1' ); ?>
 				</div>
 			</div>
 
 			<div class='row row--bottom-margin'>
 				<div class='container fp-email-signup__container'>
-					<h2 class='container__heading'>email signup</h2>
+					<h2 class='container__heading'>Email Signup</h2>
 					<p>Sign up to receive a weekly email of new posts.</p>
 					<form>Email</form>
 					<button>Submit</button>
@@ -44,7 +45,7 @@ get_header();
 
 			<div class='row row--bottom-margin '>
 				<div class='container ad__container'>
-					<h2 class='container__heading container__heading--advertisement'>advertisement</h2>
+					<h2 class='container__heading container__heading--advertisement'>Advertisement</h2>
 					<div class='advertisement--horizontal'>front page ad</div>
 				</div>
 			</div>
@@ -92,20 +93,20 @@ get_header();
 
 			<div class='row row--bottom-margin'>
 				<div class='container container--justify-center'>
-					<a href='/blog' class='link-button link-button--border'>all posts</a>
+					<a href='/blog' class='link-button link-button--border'>All Posts</a>
 				</div>
 			</div>
 
 			<div class='row row--bottom-margin '>
 				<div class='container ad__container'>
-					<h2 class='container__heading container__heading--advertisement'>advertisement</h2>
+					<h2 class='container__heading container__heading--advertisement'>Advertisement</h2>
 					<div class='advertisement--horizontal'>front page ad</div>
 				</div>
 			</div>
 
 			<div id='fp-categories' class='row row--bottom-margin'>
 				<div class='container container--wrap fp-categories__container'>
-					<h2 class='container__heading'>categories</h2>
+					<h2 class='container__heading'>Categories</h2>
 					<ul>
 						<?php wp_list_categories( array(
 							'title_li' => ''
@@ -116,7 +117,7 @@ get_header();
 
 			<div class='row row--bottom-margin'>
 				<div class='container container--wrap fp-about__container'>
-					<h2 class='container__heading'><a class='light' href='/about'>about</a></h2>
+					<h2 class='container__heading'><a class='light' href='/about'>About</a></h2>
 					<div class='about'>
 						<p>Final Decisions is the go-to source on federal appellate jurisdiction and procedure. It covers recent decisions, cert petitions, scholarship, rule changes, and more—including a weekly rundown of notable decisions and developments.</p>
 					</div>

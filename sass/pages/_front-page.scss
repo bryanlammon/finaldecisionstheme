@@ -10,6 +10,9 @@
 	background-size: cover;
 	background-color: $primary-color;
 	color: $light-shade;
+	@include atleast-sm {
+		height: 420px;
+	}
 	@include atleast-md {
 		height: 512px;
 	}
@@ -37,15 +40,18 @@
 
 // The hero title
 .title--hero {
-	font-size: 32px;
+	font-size: 45px;
+	@include atleast-xs {
+		font-size: 50px;
+	}
 	@include atleast-sm {
-		font-size: 48px;
+		font-size: 80px;
 	}
 	@include atleast-md {
-		font-size: 72px;
+		font-size: 100px;
 	}
 	@include atleast-lg {
-		font-size: 96px;
+		font-size: 120px;
 	}
 }
 

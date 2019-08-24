@@ -129,7 +129,7 @@ get_header();
 						<img class='author-photo' src='<?php bloginfo( 'template_url' ); ?>/images/lammon-800.jpg'>
 					</div>
 					<div class='about'>
-						<p>I'm a law professor at the University of Toledo College of Law. I research federal appellate jurisdiction and procedure, primarily if and when litigants can appeal.</p>
+						<p>Bryan Lammon is law professor at the University of Toledo College of Law. His research studies federal appellate jurisdiction and procedure, primarily if and when litigants can appeal.</p>
 					</div>
 					<div class='fp-about__buttons'>
 						<a href='/about' class='link-button link-button--light-accent'>Read More</a>

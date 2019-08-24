@@ -103,4 +103,18 @@ function dynamic_copyright() {
 	return $output;
 }
 
+// Exclude Pages from search
+// From https://www.wpbeginner.com/wp-tutorials/how-to-exclude-pages-from-wordpress-search-results/
+if (!is_admin()) {
+	function wpb_search_filter($query) {
+		if ($query->is_search) {
+			$query->set('post_type', 'post');
+		}
+		return $query;
+	}
+	add_filter('pre_get_posts','wpb_search_filter');
+}
+
+
+
 ?>

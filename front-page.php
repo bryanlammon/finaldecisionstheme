@@ -107,9 +107,9 @@ get_header();
 				<div class='container container--wrap fp-categories__container'>
 					<h2 class='container__heading'>categories</h2>
 					<ul>
-						<li>category</li>
-						<li>category</li>
-						<li>category</li>
+						<?php wp_list_categories( array(
+							'title_li' => ''
+						)) ?>
 					</ul>
 				</div>
 			</div>

@@ -4,6 +4,8 @@
 
 h1, h2, h3, h4 {
 	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 1.25rem;
 }
 
 //
@@ -74,6 +76,17 @@ h4 a {
 	border-bottom: none !important;
 }
 
+p+h2 {
+	margin-top: 5rem;
+}
+
+p+h3 {
+	margin-top: 3.75rem;
+}
+
+p+h4 {
+	margin-top: 2.5rem;
+}
 
 // Default link styling
 a,

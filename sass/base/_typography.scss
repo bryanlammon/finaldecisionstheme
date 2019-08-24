@@ -33,6 +33,7 @@ h2 {
 	}
 	@include atleast-lg {
 		font-size: 2.8125rem;
+		line-height: 1.1;
 	}
 }
 
@@ -94,6 +95,11 @@ a.light {
 }
 
 // Other elements
+blockquote {
+	padding-left: 15px;
+	border-left: 2px solid $primary-color;
+}
+
 hr { 
 	width: 45%;
 	margin: 0 auto 1.5625rem auto;

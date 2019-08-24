@@ -92,7 +92,7 @@ get_header();
 
 			<div class='row row--bottom-margin'>
 				<div class='container container--justify-center'>
-					<a href='#' class='link-button link-button--border'>all posts</a>
+					<a href='/blog' class='link-button link-button--border'>all posts</a>
 				</div>
 			</div>
 

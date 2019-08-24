@@ -9,8 +9,6 @@
 get_header();
 ?>
 
-<?php get_header(); ?>
-
 		<main>
 
 			<?php get_template_part( 'template-parts/random-background' ); ?>
@@ -30,7 +28,7 @@ get_header();
 					<div class='other-posts'>
 						<h4 class='other-posts__heading'>recent posts</h4>
 						<dl>
-						<?php $the_query = new WP_Query( 'posts_per_page=5'); ?>
+						<?php $the_query = new WP_Query( 'posts_per_page=4'); ?>
 
 						<?php while ( $the_query -> have_posts() ) : $the_query -> the_post(); ?>
 

@@ -11,6 +11,7 @@
 	margin-bottom: 0;
 	background: $light-shade;
 	border-bottom: 2px solid $primary-color;
+	transition: 0.3s ease; // Transition for scrolling function
 }
 
 .header-container {

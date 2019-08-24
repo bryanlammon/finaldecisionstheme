@@ -27,7 +27,7 @@
 				<div class='container header-container'>
 
 					<div class='header__logo'>
-						<a href='https://finaldecisions.org'><img src='<?php echo get_bloginfo('template_url') ?>/images/fd-logo-blue.svg' alt='Final Decisions Logo'></a>
+						<a href=<?php echo get_home_url(); ?>><img src='<?php echo get_bloginfo('template_url') ?>/images/fd-logo-blue.svg' alt='Final Decisions Logo'></a>
 					</div>
 
 					<button class='mobile-navigation-menu__toggle-button'>

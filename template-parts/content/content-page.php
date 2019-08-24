@@ -9,8 +9,8 @@
 ?>
 
 			<div class='row row--bottom margin'>
-				<div class='container title-container'>
-					<h1 class='title center-title'><?php the_title(); ?></h1>
+				<div class='container title-container title-container--narrow'>
+					<h1 class='title'><?php the_title(); ?></h1>
 				</div>
 			</div>
 

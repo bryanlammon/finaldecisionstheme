@@ -34,6 +34,7 @@
 								</p>
 							</div>
 							<hr>
+
 							<?php the_content(); ?>
 						</div>
 

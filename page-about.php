@@ -2,7 +2,7 @@
 
 //
 // Final Decisions rev 3
-// Single-page template
+// About-page template
 // Last update: Rev 3a1 on August 11, 2019
 //
 

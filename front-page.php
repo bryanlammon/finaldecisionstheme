@@ -103,7 +103,7 @@ get_header();
 				</div>
 			</div>
 
-			<div class='row row--bottom-margin'>
+			<div id='fp-categories' class='row row--bottom-margin'>
 				<div class='container container--wrap fp-categories__container'>
 					<h2 class='container__heading'>categories</h2>
 					<ul>

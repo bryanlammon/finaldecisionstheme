@@ -36,7 +36,7 @@
 
 					<div class='large-navigation-menu'>
 						<a href='/about' class='large-navigation-menu__wide-link'>About</a>
-						<a href='/categories' class='large-navigation-menu__wide-link'>Categories</a>
+						<a href=<?php echo get_site_url(null, '#fp-categories', ''); ?> class='large-navigation-menu__wide-link'>Categories</a>
 						<a href='/archive' class='large-navigation-menu__wide-link'>Archive</a>
 						<a href='/scholarship' class='large-navigation-menu__wide-link'>Scholarship</a>
 						<a href='/projects' class='large-navigation-menu__wide-link'>Projects</a>

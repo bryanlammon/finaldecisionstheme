@@ -1,4 +1,12 @@
-<!-- OLD -->
+<?php
+
+//
+// Final Decisions rev 3
+// Search form file
+// Last update: Rev 3a1 on August 24, 2019
+//
+
+?>
 
 <form role="search" method="get" id="searchform" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 	<div>

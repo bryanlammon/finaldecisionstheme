@@ -22,7 +22,7 @@ add_action( 'after_setup_theme', 'theme_slug_setup' );
 	function my_queue() {
 
 		// Google Fonts
-		wp_enqueue_style( 'google_fonts', 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,500i,700,700i|Raleway:700');
+		wp_enqueue_style( 'google_fonts', 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:600,600i,700,700i|Raleway:700');
 		// Normalize CSS
 		wp_enqueue_style( 'normalizecss', get_template_directory_uri() . '/css/normalize.css');
 		// Font Awesome

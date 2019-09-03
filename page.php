@@ -11,7 +11,7 @@ get_header();
 
 		<main>
 
-			<div class='row row--bottom-margin background-image fixed-background-image--c6'></div>
+			<?php get_template_part( 'template-parts/random-background' ); ?>
 
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); get_template_part( 'template-parts/content/content-page', get_post_format() ); endwhile; endif; ?>
 

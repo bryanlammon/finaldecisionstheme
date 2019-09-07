@@ -24,7 +24,7 @@
 	<body>
 		<header>
 			<div class='row header-row'>
-				<div class='container header-container'>
+				<div class='container header-container' role='banner'>
 
 					<div class='header__logo'>
 						<a href=<?php echo get_home_url(); ?>><img src='<?php echo get_bloginfo('template_url') ?>/images/fd-logo-blue.svg' alt='Final Decisions Logo'></a>
@@ -34,7 +34,7 @@
 						<span class='fa fa-bars'></span>
 					</button>
 
-					<div class='large-navigation-menu'>
+					<div class='large-navigation-menu' role='navigation' aria-label='desktop navigation'>
 						<a href='/about' class='large-navigation-menu__wide-link'>About</a>
 						<a href=<?php echo get_site_url(null, '#fp-categories', ''); ?> class='large-navigation-menu__wide-link'>Categories</a>
 						<a href='/blog' class='large-navigation-menu__wide-link'>Archive</a>
@@ -61,7 +61,7 @@
 						</div>
 					</div>
 
-					<nav class='mobile-navigation-menu' id='mobile-navigation-menu'>
+					<nav class='mobile-navigation-menu' id='mobile-navigation-menu' role='navigation' aria-label='mobile navigation'>
 						<div class='mobile-navigation-menu__top-row'>
 
 							<button class='mobile-navigation-menu__toggle-button'>

@@ -24,7 +24,7 @@ get_header();
 
 			<div class='row row--bottom-margin'>
 				<hr>
-				<div class='container container--wrap container--justify-center'>
+				<div class='container container--wrap container--justify-center' aria-label='post-navigation'>
 					<?php posts_nav_link(' ','Newer Posts','Older Posts'); ?>
 				</div>
 			</div>

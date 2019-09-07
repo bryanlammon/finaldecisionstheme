@@ -108,7 +108,7 @@ get_header();
 				</div>
 			</div> -->
 
-			<div id='fp-categories' class='row row--bottom-margin'>
+			<div id='fp-categories' class='row row--bottom-margin' aria='post categories'>
 				<div class='container container--wrap fp-categories__container'>
 					<h2 class='container__heading'>Categories</h2>
 					<ul>
@@ -119,20 +119,20 @@ get_header();
 				</div>
 			</div>
 
-			<div class='row row--bottom-margin'>
+			<div class='row row--bottom-margin' aria='about'>
 				<div class='container container--wrap fp-about__container'>
 					<h2 class='container__heading'><a class='light' href='/about'>About</a></h2>
 					<div class='about'>
-						<p>Final Decisions is the go-to source on federal appellate jurisdiction and procedure. It covers recent decisions, cert petitions, scholarship, rule changes, and more—including a weekly rundown of notable decisions and developments.</p>
+						<p>Final Decisions is the source for what's happening in federal appellate jurisdiction and procedure. It covers recent decisions, cert petitions, scholarship, rule changes, and more—including a weekly rundown of notable decisions and developments.</p>
 					</div>
 					<div class='about'>
-						<img class='author-photo' src='<?php bloginfo( 'template_url' ); ?>/images/lammon-800.jpg'>
+						<img class='author-photo' src='<?php bloginfo( 'template_url' ); ?>/images/lammon-800.jpg' alt='Photo of Bryan Lammon'>
 					</div>
 					<div class='about'>
-						<p>Bryan Lammon is law professor at the University of Toledo College of Law. His research studies federal appellate jurisdiction and procedure, primarily if and when litigants can appeal.</p>
+						<p>Bryan Lammon is law professor at the University of Toledo College of Law. He studies federal appellate jurisdiction and procedure, primarily if and when litigants can appeal.</p>
 					</div>
 					<div class='fp-about__buttons'>
-						<a href='/about' class='link-button link-button--light-accent'>Read More</a>
+						<a href='/about' class='link-button link-button'>Read More</a>
 					</div>
 				</div>
 			</div>

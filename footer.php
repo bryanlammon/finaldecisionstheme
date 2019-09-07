@@ -10,7 +10,7 @@
 
 		<footer>
 
-			<div class='row footer-row'>
+			<div class='row footer-row' role='contentinfo'>
 				<div class='container footer-container'>
 					<div class='footer footer__title'>
 						<a href=<?php echo get_home_url(); ?> class='title--footer'>final decisions</a>

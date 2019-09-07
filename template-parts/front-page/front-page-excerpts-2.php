@@ -10,7 +10,7 @@
 					
 					<?php $the_query = new WP_Query( array( 'posts_per_page' => 4, 'offset' => 4 ) ); ?>
 
-						<?php while ( $the_query -> have_posts() ) : $the_query -> the_post(); ?>
+					<?php while ( $the_query -> have_posts() ) : $the_query -> the_post(); ?>
 
 						<div class='fp-posts'>
 							<div class='post__category'>

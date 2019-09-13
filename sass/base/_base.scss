@@ -1,0 +1,18 @@
+//
+// Basics
+//
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: "Cormorant Garamond", serif;
+	font-weight: 600;
+	background-color: $light-shade;
+	color: $dark-shade;
+}

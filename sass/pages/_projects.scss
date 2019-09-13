@@ -1,0 +1,138 @@
+/*
+ * Title card styles
+ */
+.project-title__row {
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: $primary-color;
+	color: $light-shade;
+	margin-bottom: 40px;
+}
+
+.qia__row {
+	background-image: url('../images/edpa--2560.jpg');
+}
+
+.cca__row {
+
+}
+
+.project-title__container {
+	display: block;
+	padding: 240px 15px 0 15px;
+
+	@include atleast-md {
+		padding: 200px 15px 0 15px;
+	}
+
+	@include atleast-lg {
+		padding: 160px 15px 0 15px;
+	}
+}
+
+.project-title__container h1 {
+	font-size: 20px;
+	text-align: center;
+
+	@include atleast-sm {
+		margin-bottom: 48px;
+		font-size: 28px;
+	}
+
+	@include atleast-md {
+		font-size: 48px;
+	}
+
+	@include atleast-lg {
+		font-size: 72px;
+	}
+
+	@include atleast-xl {
+		font-size: 88px;
+	}
+}
+
+.project-title__container h2 {
+	font-size: 20px;
+
+	@include atleast-sm {
+		font-size: 20px;
+	}
+
+	@include atleast-md {
+		font-size: 36px;
+	}
+
+	@include atleast-lg {
+		font-size: 48px;
+	}
+
+	@include atleast-xl {
+		font-size: 56px;
+	}
+}
+
+
+/*
+ * Body styles
+ */
+.project__row {
+
+}
+
+.project__container {
+	width: 570px;
+	margin-bottom: 40px;
+}
+
+.projects__container h2, 
+.projects__container h3, 
+.projects__container h4 {
+	width: 100%;
+	text-align: center;
+}
+
+.project__container p {
+	padding: 0 15px;
+	max-width: 570px;
+}
+
+.project__box {
+	padding: 15px;
+	max-width: 570px;
+}
+
+/*
+ * Project mid-page image
+ */
+.mid-page-image__row {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: $primary-color;
+	height: 200px;
+	margin-bottom: 40px;
+
+	@include atleast-md {
+		height: 300px;
+	}
+
+	@include atleast-xl {
+		height: 400px;
+	}
+}
+
+.mid-page-image__row--qia2 {
+	background-image: url('../images/ndil--1600.jpg');
+}
+
+.mid-page-image__row--qia3 {
+	background-image: url('../images/ndga--1600.jpg');
+}
+
+.mid-page-image__row--sct {
+	background-image: url('../images/c13--1600.jpg');
+	margin-bottom: 0;
+}

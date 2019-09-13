@@ -1,16 +1,23 @@
-<article class="post-cards">
-	<header class="content-header">
+<?php
 
-		<!-- post title -->
-		<div class="post-title">
-			<h1><?php the_title(); ?></h1>
-		</div>
+//
+// Final Decisions rev 3
+// Template for single-page content
+// Last update: Rev 3a1 on August 11, 2019
+//
 
-		<hr class="wide-line">
+?>
 
-	</header>
+			<div class='row row--bottom margin'>
+				<div class='container title-container title-container--narrow'>
+					<h1 class='title'><?php the_title(); ?></h1>
+				</div>
+			</div>
 
-	<div class="post-content">
-		<?php the_content(); ?>
-	</div>
-</article>
+			<div class='row row--bottom-margin'>
+				<div class='container copy-container'>
+					<div class='copy-container__body'>
+						<?php the_content(); ?>
+					</div>
+				</div>
+			</div>

@@ -9,7 +9,7 @@
 /// @param {Number} $percentage - percentage of `$color` in returned color
 /// @return {Color}
 @function tint($color, $percentage) {
-	@return mix(white, $color, $percentage);
+    @return mix(white, $color, $percentage);
 }
 
 /// Slightly darken a color
@@ -18,7 +18,7 @@
 /// @param {Number} $percentage - percentage of `$color` in returned color
 /// @return {Color}
 @function shade($color, $percentage) {
-	@return mix(black, $color, $percentage);
+    @return mix(black, $color, $percentage);
 }
 
 /// Responsive breakpoint manager
@@ -26,20 +26,20 @@
 /// @param {String} $breakpoint - Breakpoint
 /// @requires $breakpoints
 @mixin respond-to($breakpoint) {
-	$raw-query: map-get($breakpoints, $breakpoint);
+    $raw-query: map-get($breakpoints, $breakpoint);
 
-	@if $raw-query {
-		$query: if(
-			type-of($raw-query) == 'string',
-			unquote($raw-query),
-			inspect($raw-query)
-		);
+    @if $raw-query {
+        $query: if(type-of($raw-query)=='string',
+                unquote($raw-query),
+                inspect($raw-query));
 
-		@media #{$query} {
-			@content;
-		}
-	} @else {
-		@error 'No value found for `#{$breakpoint}`. '
-				 + 'Please make sure it is defined in `$breakpoints` map.';
-	}
+        @media #{$query} {
+            @content;
+        }
+    }
+
+    @else {
+        @error 'No value found for `#{$breakpoint}`. '
+        +'Please make sure it is defined in `$breakpoints` map.';
+    }
 }

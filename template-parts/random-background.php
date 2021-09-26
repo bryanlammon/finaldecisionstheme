@@ -8,4 +8,4 @@
 
 ?>
 
-			<div class='row row--bottom-margin background-image' style='background-image: url("<?php bloginfo( 'template_url' ); ?>/images/c<?= rand(2, 12) ?>--1600.jpg")'></div>
+<div class='row row--bottom-margin background-image' style='background-image: url("<?php bloginfo('template_url'); ?>/images/c<?= rand(2, 12) ?>--1600.jpg")'></div>

@@ -5,39 +5,51 @@
 // Ad blocks have a light gray background and max width of 960px
 // At 960px width, the corners round
 .ad__container {
-	flex-direction: column;
-	align-items: center;
-	height: 80px;
-	max-width: 350px;
-	padding: 2px 0 15px 0;
-	background: $primary-gray--lighter-4;
-	border-radius: 5px;
-	@include atleast-md {
-		max-width: none;
-		height: 120px;
-		width: 758px;
-		
-	}
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    max-width: 350px;
+    padding: 2px 0 15px 0;
+    background: $primary-gray--lighter-4;
+    border-radius: 5px;
+
+    @include atleast-md {
+        max-width: none;
+        height: 120px;
+        width: 758px;
+
+    }
 }
 
 // The container for the actual ad, inside the gray box
 .advertisement--horizontal {
-	background-color: white;
-	height: 50px;
-	width: 320px;
-	@include atleast-md {
-		height: 90px;
-		width: 728px;
-	}
+    background-color: white;
+    height: 50px;
+    width: 320px;
+
+    @include atleast-md {
+        height: 90px;
+        width: 728px;
+    }
 }
 
 // Style for headings in advertisement containers
 .container__heading--advertisement {
-	width: 100%;
-	margin: 0 0 1px 0;
-	padding: 0;
-	font-size: 12px;
-	line-height: 1;
-	text-transform: uppercase;
-	color: $primary-gray--lighter-2;
+    width: 100%;
+    margin: 0 0 1px 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: $primary-gray--lighter-2;
+}
+
+@media (prefers-color-scheme: dark) {
+    .ad__container {
+        background: $primary-gray--darker-4;
+    }
+
+    .container__heading--advertisement {
+        color: $primary-gray--darker-2;
+    }
 }

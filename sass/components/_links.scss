@@ -5,81 +5,150 @@
 // Standard button, white with blue text
 a.link-button,
 a.link-button:visited {
-	width: 240px;
-	height: 60px;
-	margin: 15px;
-	padding: 18px 0;
-	font-family: Raleway, sans-serif;
-	font-size: 24px;
-	line-height: 1;
-	text-align: center;
-	border-radius: 2px;
-	border: none;
-	background-color: $light-shade;
-	color: $primary-color;
+    width: 240px;
+    height: 60px;
+    margin: 15px;
+    padding: 18px 0;
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    background-color: $light-shade;
+    color: $primary-color;
 }
 
 a.link-button:hover,
 a.link-button:focus {
-	background-color: $primary-gray--lighter-4;
+    background-color: $primary-gray--lighter-4;
 }
 
-a.a.link-button:active {
-	background-color: $primary-gray--lighter-2;
+a.link-button:active {
+    background-color: $primary-gray--lighter-2;
 }
 
 // Light accent button
 a.link-button--light-accent,
-a.link-button--light-accent:visited, {
-	background-color: $light-accent;
-	color: $primary-color;
+a.link-button--light-accent:visited {
+    background-color: $light-accent;
+    color: $primary-color;
 }
 
 a.link-button--light-accent:hover,
 a.link-button--light-accent:focus {
-	background-color: $light-accent--lighter;
+    background-color: $light-accent--lighter;
 }
 
 a.link-button--light-accent:active {
-	background-color: $light-accent--darker;
+    background-color: $light-accent--darker;
 }
-
 
 // Dark accent button
 a.link-button--dark-accent,
-a.link-button--dark-accent:visited, {
-	background-color: $dark-accent;
-	color: $light-shade;
+a.link-button--dark-accent:visited {
+    background-color: $dark-accent;
+    color: $light-shade;
 }
 
 a.link-button--dark-accent:hover,
 a.link-button--dark-accent:focus {
-	background-color: $dark-accent--lighter;
+    background-color: $dark-accent--lighter;
 }
 
 a.link-button--dark-accent:active {
-	background-color: $dark-accent--darker;
+    background-color: $dark-accent--darker;
 }
 
 // Button with a blue border
 a.link-button--border {
-	border: solid 2px $primary-color;
+    border: solid 2px $primary-color;
 }
 
 a.link-button--border:hover,
 a.link-button--border:focus {
-	background-color: $primary-color;
-	color: $light-shade;
-	border: solid 2px $primary-color;
+    background-color: $primary-color;
+    color: $light-shade;
+    border: solid 2px $primary-color;
 }
 
 a.link-button--border:active {
-	background-color: $primary-color--darker;
-	border: solid 2px $primary-color--darker;
+    background-color: $primary-color--darker;
+    border: solid 2px $primary-color--darker;
 }
 
 // The continue-reading button
 .link-button--centered {
-	display: block;
-	margin: 0 auto !important;
+    display: block;
+    margin: 0 auto !important;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    a.link-button,
+    a.link-button:visited {
+        background-color: $primary-color--darkest;
+        color: $light-shade--darker-3;
+    }
+
+    a.link-button:hover,
+    a.link-button:focus {
+        background-color: $primary-color--darker;
+    }
+
+    a.a.link-button:active {
+        background-color: $primary-color;
+    }
+
+    // Light accent button
+    a.link-button--light-accent,
+    a.link-button--light-accent:visited {
+        background-color: $light-accent--lightest;
+        color: $primary-color--darkest;
+    }
+
+    a.link-button--light-accent:hover,
+    a.link-button--light-accent:focus {
+        background-color: $light-accent--lighter;
+    }
+
+    a.link-button--light-accent:active {
+        background-color: $light-accent;
+    }
+
+    // Dark accent button
+    a.link-button--dark-accent,
+    a.link-button--dark-accent:visited {
+        background-color: $dark-accent;
+        color: $light-shade--darker-2;
+    }
+
+    a.link-button--dark-accent:hover,
+    a.link-button--dark-accent:focus {
+        background-color: $dark-accent--darker;
+    }
+
+    a.link-button--dark-accent:active {
+        background-color: $dark-accent--darkest;
+    }
+
+    // Button with a blue border
+    a.link-button--border,
+    a.link-button--border:visited {
+        border: solid 2px $light-accent--lightest;
+        color: $light-accent--lightest;
+    }
+
+    a.link-button--border:hover,
+    a.link-button--border:focus {
+        background-color: $light-accent--lighter;
+        color: $primary-color--darkest;
+        border: solid 2px $light-accent--lighter;
+    }
+
+    a.link-button--border:active {
+        background-color: $light-accent--lightest;
+        color: $primary-gray--darker-2;
+        border: solid 2px $light-accent--lightest;
+    }
 }

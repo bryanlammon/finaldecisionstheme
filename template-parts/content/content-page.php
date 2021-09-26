@@ -8,16 +8,16 @@
 
 ?>
 
-			<div class='row row--bottom margin'>
-				<div class='container title-container title-container--narrow'>
-					<h1 class='title'><?php the_title(); ?></h1>
-				</div>
-			</div>
+<div class='row row--bottom margin'>
+    <div class='container title-container title-container--narrow'>
+        <h1 class='title'><?php the_title(); ?></h1>
+    </div>
+</div>
 
-			<div class='row row--bottom-margin'>
-				<div class='container copy-container'>
-					<div class='copy-container__body'>
-						<?php the_content(); ?>
-					</div>
-				</div>
-			</div>
+<div class='row row--bottom-margin'>
+    <div class='container copy-container'>
+        <div class='copy-container__body'>
+            <?php the_content(); ?>
+        </div>
+    </div>
+</div>

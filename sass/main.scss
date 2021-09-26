@@ -1,9 +1,10 @@
 /*
  * Load abstracts: functions, variables, etc.;
- * 1. Load color variables separately to usetint and shade functions
+ * 1. Load color variables separately to use tint and shade functions
  */
 @import 'abstracts/variables';
-@import 'abstracts/functions'; /* 1 */
+@import 'abstracts/functions';
+/* 1 */
 @import 'abstracts/colors';
 @import 'abstracts/mixins';
 

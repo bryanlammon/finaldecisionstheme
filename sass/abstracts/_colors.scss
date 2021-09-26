@@ -16,9 +16,6 @@ $dark-accent: $fd-pink;
 $light-shade: $fd-white;
 $dark-shade: $fd-dark-gray;
 
-
-
-
 // Palettes
 $primary-color--lighter: tint($primary-color, 20%);
 $primary-color--lightest: tint($primary-color, 50%);
@@ -63,8 +60,7 @@ $pure-gray--darker-2: shade($pure-gray, 44%);
 $pure-gray--darker-3: shade($pure-gray, 66%);
 $pure-gray--darker-4: shade($pure-gray, 88%);
 
-
-// 
+//
 // Warmed/cooled gray
 // Gray mixed with primary color overlay at 10% opacity
 //

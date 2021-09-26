@@ -1,8 +1,8 @@
 <?php
 //
-// Final Decisions rev 3
+// Final Decisions rev 4
 // The across-site header w/ nav menu
-// Last update: rev 3a1 on August 11, 2019
+// Last update: rev 4 on September 2021
 //
 
 ?>
@@ -12,6 +12,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="theme-color" content="#00305c">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 

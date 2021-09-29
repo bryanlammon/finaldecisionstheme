@@ -3,7 +3,7 @@
 //
 // Final Decisions rev 3
 // Footer
-// Last update: Rev 3a1 on August 24, 2019
+// Last update: Rev 4 on August 24, 2019
 //
 
 ?>
@@ -14,7 +14,6 @@
         <div class='container footer-container'>
             <div class='footer footer__title'>
                 <a href=<?php echo get_home_url(); ?> class='title--footer'>final decisions</a>
-                <p class='subtitle--footer'>Appellate jurisdiction and procedure</p>
                 <p class='author--footer'>By Bryan Lammon</p>
             </div>
 

@@ -3,7 +3,7 @@
 //
 // Final Decisions rev 3
 // Single-post template
-// Last update: Rev 3a1 on August 11, 2019
+// Last update: Rev 4, September 2021
 //
 
 get_header();
@@ -14,7 +14,7 @@ get_header();
     <div class='row row--bottom-margin hero-row' style='background-image: url("<?php bloginfo('template_url'); ?>/images/c<?= rand(2, 12) ?>--1600.jpg")'>
         <div class='container hero-container'>
             <h1 class='copy--hero title--hero'>final decisions</h1>
-            <h2 class='copy--hero subtitle--hero'>Appellate jurisdiction and procedure.</h2>
+            <h2 class='copy--hero subtitle--hero'>A blog on appellate jurisdiction and procedure.</h2>
             <p class='copy--hero paragraph--hero'>By Bryan Lammon</p>
         </div>
     </div>

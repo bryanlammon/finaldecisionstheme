@@ -61,21 +61,6 @@
     max-width: 570px;
 }
 
-// Add bottom-borders to links in body copy
-.copy-container__body a,
-.copy-container__body a:visited {
-    border-bottom: solid 2px $primary-color;
-}
-
-.copy-container__body a:hover,
-.copy-container__body a:focus {
-    border-bottom: solid 2px $primary-color--lighter;
-}
-
-.copy-container__body a:active {
-    border-bottom: solid 2px $primary-color--darker;
-}
-
 //
 // Styling for post info: date and author
 //
@@ -135,20 +120,6 @@
 @media (prefers-color-scheme: dark) {
     .post__category {
         color: $light-accent--lightest;
-    }
-
-    .copy-container__body a,
-    .copy-container__body a:visited {
-        border-bottom: solid 2px $light-accent--lightest;
-    }
-
-    .copy-container__body a:hover,
-    .copy-container__body a:focus {
-        border-bottom: solid 2px $light-accent--lighter;
-    }
-
-    .copy-container__body a:active {
-        border-bottom: solid 2px $light-accent;
     }
 
     .title--dark-shade {

@@ -147,11 +147,11 @@ ul,
 li {
     font-size: 1.25rem;
     line-height: 1.25;
-    margin-bottom: 1.5625rem;
+    //margin-bottom: 1.5625rem;
 
     @include atleast-md {
         line-height: 1.375;
-        margin-bottom: 1.71875rem;
+        //margin-bottom: 1.71875rem;
     }
 }
 

@@ -57,6 +57,7 @@ function add_head()
     <script type="text/javascript">
         jQuery.bigfoot();
     </script>
+    <link rel="me" href="https://mastodon.social/@BryanLammon">
 <?php }
 add_action('wp_head', 'add_head');
 

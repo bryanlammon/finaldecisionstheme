@@ -49,7 +49,7 @@
                     <!-- <a href='/projects' class='large-navigation-menu__wide-link'>Projects</a> -->
                     <!-- <a href='/contact' class='large-navigation-menu__wide-link'>Contact</a> -->
                     <a rel="me" href='https://mastodon.social/@BryanLammon' class='large-navigation-menu__little-link'>
-                        <span class='fa-brands fa-mastodon'></span>
+                        <span class='fab fa-mastodon'></span>
                     </a>
                     <a href='https://twitter.com/BryanLammon' class='large-navigation-menu__little-link'>
                         <span class='fab fa-twitter'></span>

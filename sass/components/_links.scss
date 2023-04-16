@@ -136,8 +136,8 @@ a.link-button--border:active {
     // Button with a blue border
     a.link-button--border,
     a.link-button--border:visited {
-        border: solid 2px $light-accent;
-        color: $light-accent;
+        border: solid 2px $light-shade;
+        color: $light-shade;
     }
 
     a.link-button--border:hover,

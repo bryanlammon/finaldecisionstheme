@@ -24,7 +24,8 @@ function my_queue()
 {
 
     // Google Fonts
-    wp_enqueue_style('google_fonts', 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:600,600i,700,700i|Raleway:400,700');
+    //wp_enqueue_style('google_fonts', 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:600,600i,700,700i|Raleway:400,700');
+    wp_enqueue_style('google_fonts', 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,700&family=EB+Garamond:ital@0;1&family=Raleway:wght@700&display=swap');
     // Normalize CSS
     wp_enqueue_style('normalizecss', get_template_directory_uri() . '/css/normalize.css');
     // Font Awesome

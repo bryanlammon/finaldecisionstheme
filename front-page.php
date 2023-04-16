@@ -59,7 +59,7 @@ get_header();
         <div class='container container--wrap fp-about__container'>
             <h2 class='container__heading'><a class='light' href='/about'>About</a></h2>
             <div class='about'>
-                <p>Final Decisions covers appellate jurisdiction and procedure: recent decisions, cert petitions, scholarship, rule changes, and more—including a weekly rundown of notable decisions and developments.</p>
+                <p>Final Decisions covers appellate jurisdiction and procedure: recent decisions, cert petitions, scholarship, rule changes, and more—including regular roundups of notable decisions and developments.</p>
             </div>
             <div class='about'>
                 <img class='author-photo' src='<?php bloginfo('template_url'); ?>/images/lammon-800.jpg' alt='Photo of Bryan Lammon'>

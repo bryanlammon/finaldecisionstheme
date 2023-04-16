@@ -87,13 +87,13 @@ a.link-button--border:active {
 
     a.link-button,
     a.link-button:visited {
-        background-color: $primary-color--darkest;
-        color: $light-shade--darker-3;
+        background-color: $primary-color;
+        color: $light-shade;
     }
 
     a.link-button:hover,
     a.link-button:focus {
-        background-color: $primary-color--darker;
+        background-color: $primary-color;
     }
 
     a.a.link-button:active {
@@ -103,13 +103,13 @@ a.link-button--border:active {
     // Light accent button
     a.link-button--light-accent,
     a.link-button--light-accent:visited {
-        background-color: $light-accent--lightest;
-        color: $primary-color--darkest;
+        background-color: $light-accent;
+        color: $primary-color;
     }
 
     a.link-button--light-accent:hover,
     a.link-button--light-accent:focus {
-        background-color: $light-accent--lighter;
+        background-color: $light-accent;
     }
 
     a.link-button--light-accent:active {
@@ -120,35 +120,35 @@ a.link-button--border:active {
     a.link-button--dark-accent,
     a.link-button--dark-accent:visited {
         background-color: $dark-accent;
-        color: $light-shade--darker-2;
+        color: $light-shade;
     }
 
     a.link-button--dark-accent:hover,
     a.link-button--dark-accent:focus {
-        background-color: $dark-accent--darker;
+        background-color: $dark-accent;
     }
 
     a.link-button--dark-accent:active {
-        background-color: $dark-accent--darkest;
+        background-color: $dark-accent;
     }
 
     // Button with a blue border
     a.link-button--border,
     a.link-button--border:visited {
-        border: solid 2px $light-accent--lightest;
-        color: $light-accent--lightest;
+        border: solid 2px $light-accent;
+        color: $light-accent;
     }
 
     a.link-button--border:hover,
     a.link-button--border:focus {
-        background-color: $light-accent--lighter;
-        color: $primary-color--darkest;
-        border: solid 2px $light-accent--lighter;
+        background-color: $light-accent;
+        color: $primary-color;
+        border: solid 2px $light-accent;
     }
 
     a.link-button--border:active {
-        background-color: $light-accent--lightest;
-        color: $primary-gray--darker-2;
-        border: solid 2px $light-accent--lightest;
+        background-color: $light-accent;
+        color: $primary-gray;
+        border: solid 2px $light-accent;
     }
 }

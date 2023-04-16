@@ -294,21 +294,21 @@
 
 @media (prefers-color-scheme: dark) {
     .fp-posts__title {
-        color: $light-shade--darker-2;
+        color: $light-shade;
     }
 
     .fp-posts__subtitle {
-        color: $light-shade--darker-2;
+        color: $light-shade;
     }
 
     .fp-categories__container {
-        background: $primary-color--darkest;
-        color: $light-shade--darker-2;
+        background: $primary-color;
+        color: $light-shade;
     }
 
     .cat-item a,
     .cat-item a:visited {
-        color: $light-shade--darker-2;
+        color: $light-shade;
     }
 
     .cat-item a:hover,
@@ -321,14 +321,14 @@
     }
 
     .fp-about__container {
-        background: $primary-color--darkest;
-        color: $light-shade--darker-2;
+        background: $primary-color;
+        color: $light-shade;
     }
 
     .fp-about__buttons a,
     .fp-about__buttons a:visited {
-        background-color: $light-shade--darker-2;
-        color: $primary-color--darkest;
+        background-color: $light-shade;
+        color: $primary-color;
     }
 
     .fp-about__buttons a:hover,

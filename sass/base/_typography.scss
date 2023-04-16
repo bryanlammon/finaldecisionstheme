@@ -159,7 +159,7 @@ li {
 
     a,
     a:visited {
-        color: $light-accent--lightest;
+        color: $light-accent;
     }
 
     a:hover,
@@ -168,7 +168,7 @@ li {
     }
 
     a:active {
-        color: $light-accent;
+        color: $light-accent--darker;
     }
 
     a.light {
@@ -176,6 +176,6 @@ li {
     }
 
     hr {
-        color: $light-accent--lightest;
+        color: $light-accent;
     }
 }

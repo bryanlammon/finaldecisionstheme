@@ -48,17 +48,17 @@
 @media (prefers-color-scheme: dark) {
     .header-row {
         background: $primary-color;
-        border-bottom: 2px solid $light-shade--darker-2;
+        border-bottom: 2px solid $light-shade;
     }
 
     .header-row a,
     .header-row a:visited {
-        color: $light-shade--darker-2;
+        color: $light-shade;
     }
 
     .header-row a:hover,
     .header-row a:focus {
-        color: $light-shade--darker-3;
+        color: $light-shade--darker-2;
     }
 
     .header-row a:active {

@@ -3,7 +3,7 @@
 //
 // Final Decisions rev 3
 // Single-post template
-// Last update: Rev 4, September 2021
+// Last update: Rev 5, April 2023
 //
 
 get_header();
@@ -19,14 +19,6 @@ get_header();
         </div>
     </div>
 
-    <!-- Currently inactive
-			<div class='row row--bottom-margin '>
-				<div class='container ad__container'>
-					<h2 class='container__heading container__heading--advertisement'>Sponsor</h2>
-					<div class='advertisement--horizontal'>front page ad</div>
-				</div>
-			</div> -->
-
     <div class='row row--bottom-margin'>
         <div class='container container--wrap'>
             <h2 class='container__heading'>Latest Posts</h2>
@@ -34,59 +26,11 @@ get_header();
         </div>
     </div>
 
-    <!-- Currently inactive
-			<div class='row row--bottom-margin'>
-				<div class='container fp-email-signup__container'>
-					<h2 class='container__heading'>Email Signup</h2>
-					<p>Sign up to receive a weekly email of new posts.</p>
-					<form>Email</form>
-					<button>Submit</button>
-				</div>
-			</div> -->
-
-    <!-- Currently inactive
-			<div class='row row--bottom-margin '>
-				<div class='container ad__container'>
-					<h2 class='container__heading container__heading--advertisement'>Advertisement</h2>
-					<div class='advertisement--horizontal'>front page ad</div>
-				</div>
-			</div> -->
-
     <div class='row row--bottom-margin'>
         <div class='container container--wrap'>
             <?php get_template_part('template-parts/front-page/front-page-excerpts-2'); ?>
         </div>
     </div>
-
-    <!-- Currently inactive
-			<div class='row row--bottom-margin fp-projects__row'>
-				<div class='container container--wrap fp-projects__container'>
-					<div class='fp-projects__project'>
-						<h3 class='heading--fp-projects'>The<br><i>Qualified-Immunity Appeals</i><br>Project</h3>
-						<p class='copy--fp-projects'>Data-driven analysis of interlocutory qualified-immunity appeals in federal court.</p>
-						<div class='fp-projects__buttons'>
-							<a href='#' class='link-button link-button--light-accent'>Learn more</a>
-							<a href='#' class='link-button link-button--dark-accent'>Download the data</a>
-						</div>
-					</div>
-					<div class='fp-projects__project'>
-						<h3 class='heading--fp-projects'>The<br><i>Class-Certification Appeals</i><br>Project</h3>
-						<p class='copy--fp-projects'>Data-driven analysis of interlocutory class-certification appeals in federal court.</p>
-						<div class='fp-projects__buttons'>
-							<a href='#' class='link-button link-button--light-accent'>Learn more</a>
-							<a href='#' class='link-button link-button--dark-accent'>Download the data</a>
-						</div>
-					</div>
-				</div>
-			</div> -->
-
-    <!-- Currently inactive
-			<div class='row row--bottom-margin '>
-				<div class='container ad__container'>
-					<h2 class='container__heading container__heading--advertisement'>advertisement</h2>
-					<div class='advertisement--horizontal'>front page ad</div>
-				</div>
-			</div> -->
 
     <div class='row row--bottom-margin'>
         <div class='container container--wrap'>
@@ -99,14 +43,6 @@ get_header();
             <a href='/blog' class='link-button link-button--border'>All Posts</a>
         </div>
     </div>
-
-    <!-- Currently inactive
-			<div class='row row--bottom-margin '>
-				<div class='container ad__container'>
-					<h2 class='container__heading container__heading--advertisement'>Advertisement</h2>
-					<div class='advertisement--horizontal'>front page ad</div>
-				</div>
-			</div> -->
 
     <div id='fp-categories' class='row row--bottom-margin' aria='post categories'>
         <div class='container container--wrap fp-categories__container'>

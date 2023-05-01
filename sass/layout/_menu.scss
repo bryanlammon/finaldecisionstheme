@@ -61,6 +61,7 @@
 .mobile-navigation-menu__top-link {
     font-size: 42px;
     padding: 16px 15px 14px 15px;
+    line-height: 0.7;
 }
 
 .mobile-navigation-links {
@@ -118,6 +119,7 @@
     border: none;
     background-color: $light-shade;
     margin-left: 10px;
+    line-height: 0.6;
 }
 
 .large-navigation-menu__search-toggle:hover,

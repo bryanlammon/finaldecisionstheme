@@ -46,8 +46,7 @@
                     <a href=<?php echo get_site_url(null, '#fp-categories', ''); ?> class='large-navigation-menu__wide-link'>Categories</a>
                     <a href='/blog' class='large-navigation-menu__wide-link'>Archive</a>
                     <a href='/scholarship' class='large-navigation-menu__wide-link'>Scholarship</a>
-                    <!-- <a href='/projects' class='large-navigation-menu__wide-link'>Projects</a> -->
-                    <!-- <a href='/contact' class='large-navigation-menu__wide-link'>Contact</a> -->
+                    <a href='/consulting' class='large-navigation-menu__wide-link'>Consulting</a>
                     <a href='https://mastodon.social/@BryanLammon' class='large-navigation-menu__little-link'>
                         <span class='fab fa-mastodon'></span>
                     </a>
@@ -97,8 +96,7 @@
                         <a href=<?php echo get_site_url(null, '#fp-categories', ''); ?>>Categories</a>
                         <a href='/blog'>Archive</a>
                         <a href='/scholarship'>Scholarship</a>
-                        <!-- <a href='/projects'>Projects</a> -->
-                        <!-- <a href='/contact'>Contact</a> -->
+                        <a href='/consulting'>Consulting</a>
                         <?php get_search_form(); ?>
                     </div>
 

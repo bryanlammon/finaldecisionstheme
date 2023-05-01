@@ -22,6 +22,7 @@ $primary-color--lighter: tint($primary-color, 20%);
 $primary-color--lightest: tint($primary-color, 50%);
 $primary-color--darker: shade($primary-color, 20%);
 $primary-color--darkest: shade($primary-color, 50%);
+$primary-color--darkester: shade($primary-color, 60%);
 
 $light-accent--lighter: tint($light-accent, 20%);
 $light-accent--lightest: tint($light-accent, 50%);

@@ -235,7 +235,7 @@
 .fp-about__container {
     padding: 15px 0;
     max-width: 960px;
-    background: $primary-color;
+    background: $primary-color--darker;
     color: $light-shade;
 
     @include above-md {
@@ -303,7 +303,7 @@
     }
 
     .fp-categories__container {
-        background: $primary-color;
+        background: $primary-color--darker;
         color: $light-shade;
     }
 
@@ -322,7 +322,7 @@
     }
 
     .fp-about__container {
-        background: $primary-color;
+        background: $primary-color--darker;
         color: $light-shade;
     }
 

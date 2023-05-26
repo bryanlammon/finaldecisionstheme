@@ -20,7 +20,6 @@ function my_queue()
 {
     // Google Fonts
     wp_enqueue_style('google_fonts', 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,700&amp;family=Raleway:wght@700&amp;display=swap" rel="stylesheet');
-    wp_enqueue_style('google_fonts2', 'https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet');
 
     // Normalize CSS
     wp_enqueue_style('normalizecss', get_template_directory_uri() . '/css/normalize.css');

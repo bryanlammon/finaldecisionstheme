@@ -340,14 +340,25 @@ em {
   }
 }
 
+.header__name {
+  display: none;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px;
+  height: 72px;
+}
+@media (min-width: 769px) {
+  .header__name {
+    display: inline;
+  }
+}
+
 .header__logo {
   height: 72px;
   width: 90px;
 }
 @media (min-width: 769px) {
   .header__logo {
-    height: 50px;
-    width: 70px;
+    display: none;
   }
 }
 
@@ -1287,6 +1298,7 @@ a.link-button--border:active {
 }
 
 .paragraph--hero {
+  font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   font-style: italic;
 }

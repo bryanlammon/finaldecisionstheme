@@ -28,6 +28,9 @@
         <div class='row header-row'>
             <div class='container header-container' role='banner'>
 
+                <div class='header__name'>
+                <a href=<?php echo get_home_url(); ?>>final decisions</a>
+                </div>
                 <div class='header__logo'>
                     <a href=<?php echo get_home_url(); ?>>
                         <picture>

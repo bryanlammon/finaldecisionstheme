@@ -97,7 +97,7 @@ html {
 }
 
 body {
-  font-family: "EB Garamond", serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: #f5f7f4;
@@ -449,7 +449,7 @@ em {
 .mobile-navigation-links a,
 .mobile-navigation-links a:visited {
   padding: 20px 15px;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 20px;
   text-align: center;
@@ -481,7 +481,7 @@ em {
 }
 
 .large-navigation-menu a {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-align: center;
   padding: 0 6px;
@@ -545,7 +545,7 @@ em {
   margin-right: 15px;
   padding: 5px;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: #00305c;
@@ -650,7 +650,7 @@ em {
 .footer-row {
   background: #1c121d;
   color: #f5f7f4;
-  font-family: "EB Garamond", Serif;
+  font-family: "Raleway", Serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -877,7 +877,7 @@ a.title--footer:active {
 }
 
 .post__category {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   color: #00305c;
@@ -887,7 +887,7 @@ a.title--footer:active {
   width: 100%;
   margin-top: 0;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
 
@@ -974,7 +974,7 @@ a.title--footer:active {
 .other-posts__heading {
   margin-bottom: 1rem;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #00305c;
 }
@@ -994,7 +994,7 @@ a.link-button:visited {
   height: 60px;
   margin: 15px;
   padding: 18px 0;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
@@ -1399,7 +1399,7 @@ a.link-button--border:active {
   max-width: 560px;
   margin: 0 auto;
   padding: 0;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.5;

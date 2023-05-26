@@ -1268,12 +1268,12 @@ a.link-button--border:active {
 }
 @media (min-width: 768px) {
   .title--hero {
-    font-size: 100px;
+    display: none;
   }
 }
 @media (min-width: 870px) {
   .title--hero {
-    font-size: 120px;
+    display: none;
   }
 }
 

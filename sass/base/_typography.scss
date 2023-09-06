@@ -8,6 +8,7 @@ h3,
 h4 {
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
+    font-style: normal;
     margin-top: 0;
     margin-bottom: 1.25rem;
 }
@@ -157,6 +158,11 @@ li {
 b,
 strong {
     font-weight: 700;
+}
+
+i,
+em {
+    font-style: italic;
 }
 
 @media (prefers-color-scheme: dark) {

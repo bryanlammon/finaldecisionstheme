@@ -25,7 +25,6 @@
 
             <div class='footer footer__contact'>
                 <a href='https://www.utoledo.edu/law/faculty/fulltime/lammon.html'>Faculty Webpage</a>
-                <a href='https://twitter.com/BryanLammon'>Twitter</a>
                 <a href='https://www.ssrn.com/author=883907'>SSRN</a>
                 <a href='https://github.com/bryanlammon'>GitHub</a>
                 <a href='/feed'>RSS</a>

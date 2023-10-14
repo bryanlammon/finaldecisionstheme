@@ -50,12 +50,6 @@
                     <a href='/blog' class='large-navigation-menu__wide-link'>Archive</a>
                     <a href='/scholarship' class='large-navigation-menu__wide-link'>Scholarship</a>
                     <!--<a href='/consulting' class='large-navigation-menu__wide-link'>Consulting</a>-->
-                    <a href='https://mastodon.social/@BryanLammon' class='large-navigation-menu__little-link'>
-                        <span class='fab fa-mastodon'></span>
-                    </a>
-                    <a href='https://twitter.com/BryanLammon' class='large-navigation-menu__little-link'>
-                        <span class='fab fa-twitter'></span>
-                    </a>
                     <a href='https://github.com/bryanlammon' class='large-navigation-menu__little-link'>
                         <span class='fab fa-github'></span>
                     </a>
@@ -75,23 +69,15 @@
 
                 <nav class='mobile-navigation-menu' id='mobile-navigation-menu' role='navigation' aria-label='mobile navigation'>
                     <div class='mobile-navigation-menu__top-row'>
-
                         <button class='mobile-navigation-menu__toggle-button'>
                             <span class='fas fa-times'></span>
                         </button>
-
                         <a href='https://finaldecisions.org/feed' class='mobile-navigation-menu__top-link'>
                             <span class='fa fa-rss'></span>
                         </a>
-
                         <a href='https://github.com/bryanlammon' class='mobile-navigation-menu__top-link'>
                             <span class='fab fa-github'></span>
                         </a>
-
-                        <a href='https://twitter.com/BryanLammon' class='mobile-navigation-menu__top-link'>
-                            <span class='fab fa-twitter'></span>
-                        </a>
-
                     </div>
 
                     <div class='mobile-navigation-links'>

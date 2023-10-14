@@ -39,9 +39,6 @@
             </div>
 
             <div class='container share-container'>
-                <a href="https://twitter.com/intent/tweet?url=<?php echo get_permalink() ?>" class='share-container__link' title="Share on Twitter">
-                    <span class='fab fa-twitter'></span>
-                </a>
                 <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink() ?>" class='share-container__link' title="Share on Facebook">
                     <span class='fab fa-facebook-f'></span>
                 </a>

@@ -413,6 +413,7 @@ get_header();
                 </div>
                 <div class="col-lg-4 d-none d-lg-inline">
                     <h2>Recent Citations</h2>
+                    <p>Courts, litigators, and commentators regularly cite to Bryan's work. Below are some recent citations from the courts:</p>
                     <?php the_content(); ?>
                 </div>
             </div>

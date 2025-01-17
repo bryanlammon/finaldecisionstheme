@@ -1,29 +1,58 @@
-/*
- * Load abstracts: functions, variables, etc.;
- * 1. Load color variables separately to use tint and shade functions
- */
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-/* 1 */
-@import 'abstracts/colors';
-@import 'abstracts/mixins';
+// 1. Bootstrap functions.
+@import "../bootstrap/scss/functions";
 
-@import 'vendors/bigfoot';
+// 2. Default-variable overrides.
+@import "variables";
 
-@import 'base/base';
-@import 'base/typography';
+// 3. Required Bootstrap stylesheets.
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/variables-dark";
 
-@import 'layout/flex';
-@import 'layout/header';
-@import 'layout/menu';
-@import 'layout/footer';
+// 4. Default map overrides.
 
-@import 'components/background-images';
-@import 'components/copy';
-@import 'components/other-posts';
-@import 'components/links';
-@import 'components/share';
-@import 'components/ads';
+// 5. Remaining required parts.
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/utilities";
+@import "../bootstrap/scss/root";
 
-@import 'pages/front-page';
-@import 'pages/projects';
+// 6. Needed parts.
+@import "../bootstrap/scss/root";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+@import "../bootstrap/scss/images";
+@import "../bootstrap/scss/containers";
+@import "../bootstrap/scss/grid";
+@import "../bootstrap/scss/tables";
+@import "../bootstrap/scss/forms";
+@import "../bootstrap/scss/buttons";
+@import "../bootstrap/scss/transitions";
+//@import "../bootstrap/scss/dropdown";
+@import "../bootstrap/scss/button-group";
+@import "../bootstrap/scss/nav";
+@import "../bootstrap/scss/navbar";
+@import "../bootstrap/scss/card";
+@import "../bootstrap/scss/accordion";
+@import "../bootstrap/scss/breadcrumb";
+//@import "../bootstrap/scss/pagination";
+//@import "../bootstrap/scss/badge";
+//@import "../bootstrap/scss/alert";
+//@import "../bootstrap/scss/progress";
+@import "../bootstrap/scss/list-group";
+@import "../bootstrap/scss/close";
+//@import "../bootstrap/scss/toasts";
+@import "../bootstrap/scss/modal";
+@import "../bootstrap/scss/tooltip";
+@import "../bootstrap/scss/popover";
+//@import "../bootstrap/scss/carousel";
+//@import "../bootstrap/scss/spinners";
+//@import "../bootstrap/scss/offcanvas";
+@import "../bootstrap/scss/placeholders";
+
+@import "../bootstrap/scss/helpers";
+
+@import "../bootstrap/scss/utilities/api";
+
+// 7. Additional custom code.
+@import "custom-css";
+@import "headroom";

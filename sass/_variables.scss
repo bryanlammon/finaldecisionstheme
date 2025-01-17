@@ -1,0 +1,77 @@
+$white: #ffffff;
+
+$theme-colors: (
+  "light": #d5ebf3,
+  "dark": #040101,
+  "primary": #00305c,
+  "secondary": #ff7f50,
+  "info": #6f578d,
+  "success": #009c57,
+  "warning": #e1c800,
+  "danger": #f00f00,
+);
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url(../fonts/CormorantGaramond-Bold.woff2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url(../fonts/CormorantGaramond-BoldItalic.woff2);
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Cormorant SC";
+  src: url(../fonts/CormorantSC-Bold.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-VF.woff2);
+  font-style: normal;
+  font-weight: 400 700;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-Italic-VF.woff2);
+  font-style: italic;
+  font-weight: 400 700;
+}
+
+$font-family-sans-serif: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-family-serif: "Cormorant Garamond", "Iowan Old Style", "Apple Garamond",
+  "Baskerville", "Times New Roman", "Droid Serif", "Times, Source Serif Pro",
+  serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  "Noto Color Emoji";
+
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 700;
+
+$display-font-family: $font-family-serif;
+$display-font-weight: 800;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 12,
+  8: $spacer * 24,
+);
+
+$breadcrumb-divider-color: #d5ebf3;
+$breadcrumb-active-color: #d5ebf3;

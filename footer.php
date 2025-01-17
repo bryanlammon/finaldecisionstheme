@@ -1,38 +1,51 @@
 <?php
 
-//
-// Final Decisions rev 3
-// Footer
-// Last update: Rev 4 on August 24, 2019
-//
+/*
+    Final Decisions Theme
+
+    Footer
+*/
 
 ?>
 
 <footer>
+    <div class="container-fluid text-light bg-dark py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                <div>
+                    <a class="d-inline-flex mb-2 text-decoration-none" href="/" aria-label="Final Decisions">
+                        <span class="text-white" style="font-size:1.75rem; font-weight:700; font-family:'Cormorant Garamond', serif;">final decisions <span style="font-family:'Cormorant SC', serif;">pllc</span></span>
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><?php echo dynamic_copyright(); ?></li>
+                        <li class="mb-2"><a class="link-light mb-1" href='/legal'>Legal Disclaimers</a></li>
+                        <li class="mb-2"><a class="link-light mb-1" href='/copyright'>Copyright Information</a></li>
+                        <li class="mb-2"><a class="link-light mb-1" href='/privacy'>Privacy Policy</a></li>
+                    </ul>
+                </div>
 
-    <div class='row footer-row' role='contentinfo'>
-        <div class='container footer-container'>
-            <div class='footer footer__title'>
-                <a href=<?php echo get_home_url(); ?> class='title--footer'>final decisions</a>
-                <p class='author--footer'>By Bryan Lammon</p>
+                <div class="pt-md-5">
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="/">Home</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="/about">About</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="/services">Services</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="/blog">Blog</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="/research">Research</a></li>
+                    </ul>
+                </div>
+
+                <div class="pt-md-5">
+
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="/contact">Contact</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="/#">LinkedIn</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href='/feed'>RSS</a></li>
+                    </ul>
+                </div>
+
             </div>
-
-            <div class='footer footer__copyright'>
-                <span class='copyright'><?php echo dynamic_copyright(); ?></span>
-                <a href='/copyright'>Copyright Information</a>
-                <a href='/privacy'>Privacy Policy</a>
-            </div>
-
-            <div class='footer footer__contact'>
-                <a href='https://www.utoledo.edu/law/faculty/fulltime/lammon.html'>Faculty Webpage</a>
-                <a href='https://www.ssrn.com/author=883907'>SSRN</a>
-                <a href='https://github.com/bryanlammon'>GitHub</a>
-                <a href='/feed'>RSS</a>
-            </div>
-
         </div>
     </div>
-
 </footer>
 
 <?php wp_footer(); ?>

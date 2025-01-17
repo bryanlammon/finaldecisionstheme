@@ -1,0 +1,49 @@
+:root,
+[data-bs-theme="light"] {
+  --bs-font-serif: "Cormorant Garamond", "Iowan Old Style", "Apple Garamond",
+    "Baskerville", "Times New Roman", "Droid Serif", "Times, Source Serif Pro",
+    serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-btn-font-family: var(--bs-font-sans-serif);
+  --bs-link-color: #fff;
+  --bs-link-color-rgb: 255, 255, 255;
+  --bs-link-decoration: underline;
+  --bs-link-hover-color: #d5ebf3;
+  --bs-link-hover-color-rgb: 213, 235, 243;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  color: #fff;
+  background-color: #fff;
+}
+
+.vh-40 {
+  height: 40vh;
+}
+
+.min-vh-40 {
+  min-height: 40vh;
+}
+
+.min-vh-20 {
+  min-height: 20vh;
+}
+
+.category a {
+  font-family: var(--bs-font-sans-serif);
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.div-links-no-underline a {
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: var(--bs-font-sans-serif);
+}

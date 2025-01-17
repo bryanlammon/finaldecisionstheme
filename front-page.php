@@ -82,7 +82,7 @@ get_header();
                 </div>
                 <div class="col-lg-6 rounded-3 p-5 d-flex flex-column justify-content-center" lc-helper="background" style="background:url(<?php bloginfo('template_url'); ?>/images/hero-7-1.png) center / cover no-repeat">
                     <p class="text-md-center fs-4 fst-italic display-6">“The court needs—more, is entitled to—the scrupulous assistance of the bar in determining jurisdiction. Jurisdiction is the first question in every appeal. The appellant must investigate jurisdictional factors before appealing and explain those factors fully to the court.”</p>
-                    <p class="text-end fs-6">- <a href="https://scholar.google.com/scholar_case?case=2458898304991120323"><em>In re Morse Electric Co.</em></a></p>
+                    <p class="text-end fs-6">- <a href="https://scholar.google.com/scholar_case?case=3124211051989644548"><em>In re Morse Electric Co.</em>, 805 F.2d 262 (7th Cir. 1986)</a></p>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@ get_header();
                 </div>
                 <div class="col-lg-6 rounded-3 p-5 d-flex flex-column justify-content-center mx-auto" lc-helper=" background" style="background:url(<?php bloginfo('template_url'); ?>/images/hero-5-3.png) center / cover no-repeat; min-height:490px">
                     <p class="text-md-center fs-4 fst-italic display-6">“As in every case, the first question we must resolve is our jurisdiction to entertain this appeal.”</p>
-                    <p class="text-end fs-6">- <a href="https://scholar.google.com/scholar_case?case=17549760450011433731"><em>West v. Louisville Gas & Electric Co.</em></a></p>
+                    <p class="text-end fs-6">- <a href="https://scholar.google.com/scholar_case?case=17549760450011433731"><em>West v. Louisville Gas & Electric Co.</em>, 951 F.3d 827 (7th Cir. 2020)</a></p>
                 </div>
             </div>
         </div>

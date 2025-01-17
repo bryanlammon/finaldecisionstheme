@@ -32,7 +32,7 @@ get_header();
             <div class="row justify-content-center">
                 <div class="col-lg-8 d-flex flex-column align-items-center" style="max-width:620px">
                     <div class="mx-auto">
-                        <img class="mb-3 img-fluid rounded-3" src="https://finaldecisions.local/wp-content/themes/finaldecisionstheme/images/lammon2.png" alt="Photo of Bryan Lammon">
+                        <img class="mb-3 img-fluid rounded-3" src="https://finaldecisions.org/wp-content/themes/finaldecisionstheme/images/lammon2.png" alt="Photo of Bryan Lammon">
                     </div>
                     <p class="lead text-center">Contact Final Decisions PLLC to learn how we can help with your appellate-jurisdiction needs.</p>
                     <a class="btn btn-lg btn-secondary" style="width:180px" id="contact" href="">Email Us</a>

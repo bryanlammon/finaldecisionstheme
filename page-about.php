@@ -41,7 +41,7 @@ get_header();
             <div class="row justify-content-center col-lg-8 mx-auto" style="max-width:620px">
                 <div class="col-lg-6 p-0 p-lg-3 order-5">
                     <div class="mx-auto">
-                        <img class="mb-3 img-fluid rounded-3" src="https://finaldecisions.local/wp-content/themes/finaldecisionstheme/images/lammon2.png" alt="Photo of Bryan Lammon">
+                        <img class="mb-3 img-fluid rounded-3" src="https://finaldecisions.org/wp-content/themes/finaldecisionstheme/images/lammon2.png" alt="Photo of Bryan Lammon">
                     </div>
                     <div class="d-flex flex-column gap-2">
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#barAdmissions" aria-expanded="false" aria-controls="barAdmissions">

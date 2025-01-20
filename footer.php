@@ -38,7 +38,7 @@
 
                     <ul class="list-unstyled">
                         <li class="mb-2"><a class="link-light text-decoration-none" href="/contact">Contact</a></li>
-                        <li class="mb-2"><a class="link-light text-decoration-none" href="/https://www.linkedin.com/in/bryan-lammon/">LinkedIn</a></li>
+                        <li class="mb-2"><a class="link-light text-decoration-none" href="https://www.linkedin.com/in/bryan-lammon/">LinkedIn</a></li>
                         <li class="mb-2"><a class="link-light text-decoration-none" href='/feed'>RSS</a></li>
                     </ul>
                 </div>

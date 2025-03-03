@@ -8,7 +8,6 @@
 
 ?>
 
-
 <div>
     <hr>
 
@@ -32,10 +31,9 @@
     </div>
 
     <div class="mb-5">
-        <p>
-            <?php the_content(); ?>
-        </p>
 
+        <?php the_excerpt() ?>
         <a href="<?php echo get_permalink() ?>">Continue reading....</a>
+
     </div>
 </div>

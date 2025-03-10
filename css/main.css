@@ -11863,6 +11863,27 @@ hr {
   font-family: var(--bs-font-sans-serif);
 }
 
+blockquote {
+  margin: 1rem;
+}
+
+th,
+td {
+  padding-bottom: 5px;
+}
+
+th {
+  background-color: #00305c;
+}
+
+td {
+  vertical-align: top;
+}
+
+tr:nth-child(even) {
+  background-color: #00182e;
+}
+
 html,
 body {
   scroll-padding-top: 40px;

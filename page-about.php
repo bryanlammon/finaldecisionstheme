@@ -52,10 +52,20 @@ get_header();
                                 <ul>
                                     <li>Illinois</li>
                                     <li>U.S. Supreme Court</li>
-                                    <li>U.S. Courts of Appeals for the First, Second, Fourth, Sixth & Tenth Circuits</li>
+                                    <li>U.S. Court of Appeals for the First Circuit</li>
+                                    <li>U.S. Court of Appeals for the Second Circuit</li>
+                                    <li>U.S. Court of Appeals for the Third Circuit</li>
+                                    <li>U.S. Court of Appeals for the Fourth Circuit</li>
+                                    <li>U.S. Court of Appeals for the Fifth Circuit</li>
+                                    <li>U.S. Court of Appeals for the Sixth Circuit</li>
+                                    <li>U.S. Court of Appeals for the Seventh Circuit</li>
+                                    <li>U.S. Court of Appeals for the Eighth Circuit</li>
+                                    <li>U.S. Court of Appeals for the Ninth Circuit</li>
+                                    <li>U.S. Court of Appeals for the Tenth Circuit</li>
+                                    <li>U.S. Court of Appeals for the Eleventh Circuit</li>
                                     <li>U.S. District Court for the Northern District of Illinois</li>
                                 </ul>
-                                <p>Bryan is not admitted to practice law in Virginia.
+                                <p>Although Final Decisions PLLC has an office in Virginia, Bryan is not admitted to practice law in Virginia.
                                 </p>
                             </div>
                         </div>

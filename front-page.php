@@ -71,7 +71,7 @@ get_header();
                         </div>
                         <div>
                             <h4 class="display-6 fs-5">Consulting</h4>
-                            <p>We advise lawyers who prefer to handle their own briefing and argument. In these instances, our work provide provides the foundation that lawyers need to craft the best arguments for their clients.</p>
+                            <p>We advise lawyers who prefer to handle their own briefing and argument. In these instances, our work provides the foundation that lawyers need to craft the best arguments for their clients.</p>
                         </div>
                         <div>
                             <h4 class="display-6 fs-5">Counsel</h4>
